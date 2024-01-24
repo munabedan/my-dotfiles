@@ -1,4 +1,3 @@
-# Dotfiles Repository
 
 This repository contains my dotfiles managed by [dotdrop](https://dotdrop.readthedocs.io/en/latest/), a utility for managing dotfiles. The following instructions will guide you on how to set up and replicate my environment.
 
