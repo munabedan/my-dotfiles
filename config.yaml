@@ -11,7 +11,11 @@ dotfiles:
   f_bashrc:
     src: bashrc
     dst: ~/.bashrc
+  f_fstab:
+    src: etc/fstab
+    dst: /etc/fstab
 profiles:
   probook:
     dotfiles:
     - f_bashrc
+    - f_fstab
