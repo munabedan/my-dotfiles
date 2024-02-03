@@ -2,19 +2,20 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
+
+export LIBVIRT_DEFAULT_URI='qemu:///system'
+
 export PATH=/usr/bin:$PATH
 
-alias apt-i='sudo apt install'
-
-alias apt-s='apt search'
+alias apt-install='sudo apt install'
 
 
-apt-l() {
+apt-sources() {
     sudo nano /etc/apt/sources.list
 }
 
 #apt
-apt-u() {
+apt-update() {
     echo -e "\n\e[1;33mRunning apt-get update...\e[0m"
     sudo apt-get update
     echo -e "\n\e[1;33mRunning apt-get upgrade...\e[0m"
@@ -34,21 +35,8 @@ firefox-work() {
             "https://github.com/" \
             "https://gist.github.com/munabedan" \
             "https://console.firebase.google.com/" \
-	    "https://www.reddit.com/r/slavelabour/" \
-	    "https://www.reddit.com/r/DoneDirtCheap/" \
 	    "https://slack.com/" &
 }
-
-
-firefox-movies() {
-    firefox "https://www.braflix.app/" \
-            "https://cinehub.wtf/" \
-            "https://fmoviesz.to/" \
-            "https://flixhq.click/" \
-            "https://sflix.to/" \
-            "https://themoviearchive.site/" &
-}
-
 
 
 venv() {
@@ -80,7 +68,6 @@ extract () {
           *.rar)       unrar x $1     ;;
           *.gz)        gunzip $1      ;;
           *.tar)       tar xvf $1     ;;
-	  *.tar.xz)    tar xf $1      ;;
           *.tbz2)      tar xvjf $1    ;;
           *.tgz)       tar xvzf $1    ;;
           *.zip)       unzip $1       ;;
@@ -100,13 +87,23 @@ bashrc() {
 }
 
 
+bckp() {
+    if ! cmp -s ~/.bashrc ~/Backups/bashrc_backup; then
+        cat ~/.bashrc > ~/Backups/bashrc_backup
+    fi
+
+    awk '!seen[$0]++' ~/.bash_history >> ~/Backups/bash_history_backup
+}
 
 
 
-
-
-
-
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+# Install Ruby Gems to ~/gems
+export GEM_HOME="$HOME/gems"
+export GEM_HOME="$HOME/gems"
+export PATH="$HOME/gems/bin:$PATH"
 
 
 # If not running interactively, don't do anything
@@ -123,8 +120,8 @@ HISTCONTROL=ignoreboth
 shopt -s histappend
 
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
-HISTSIZE=100000
-HISTFILESIZE=200000
+HISTSIZE=
+HISTFILESIZE=
 
 # check the window size after each command and, if necessary,
 # update the values of LINES and COLUMNS.
@@ -218,3 +215,10 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+
+
+# Created by `pipx` on 2024-01-20 15:32:01
+export PATH="$PATH:/home/muna/.local/bin"
+eval "$(register-python-argcomplete pipx)"
+. "$HOME/.cargo/env"
