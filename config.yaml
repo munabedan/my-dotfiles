@@ -14,8 +14,13 @@ dotfiles:
   f_fstab:
     src: etc/fstab
     dst: /etc/fstab
+  f_bash_history:
+    src: bash_history
+    dst: ~/.bash_history
+    chmod: '600'
 profiles:
   probook:
     dotfiles:
     - f_bashrc
     - f_fstab
+    - f_bash_history

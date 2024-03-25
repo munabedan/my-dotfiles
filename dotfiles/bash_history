@@ -1,0 +1,812 @@
+sudo apt update
+apt search mate-core
+apt search mate
+apt search mate | grep core
+apt search mate-core
+apt show mate-core
+sudo apt install mate-core
+sudo apt install lightdm
+reboot
+sudo reboot
+apt search network-manager-gnome
+apt show network-manager-gnome
+apt show nm-applet
+apt search nm-apple
+apt show network-manager-applet
+sudo apt install network-manager-gnome
+sudo apt install firefox-esr
+clear
+apt search pulseaudio
+sudo apt install pulseaudio
+sudo apt install pavucontroll
+sudo apt install pavucontrol
+pavucontrol
+sudo apt install mate-media
+sudo reboot
+cd Downloads/
+ls
+sudo apt install ./virtualbox-7.0_7.0.14-161095~Debian~bookworm_amd64.deb 
+sudo apt install mate-power-manager
+sudo apt install ./xdman_gtk_8.0.29_amd64.deb 
+clear
+ls
+clear
+lls
+clear
+ls
+nano .bashrc
+code .bashrc 
+vscodium
+apt search codium
+codium .bashrc
+apt search gthumb
+apt-install gthumb
+apt-update
+apt-install mpv
+apt-install qbittorrent
+codium .bashrc
+apt-i git
+clear
+firefox-movies
+apt-i ./upwork_5.8.0.33_amd64.deb 
+ls
+apt-i ./*
+sudo apt uninstall pavucontroll
+sudo apt uninstall pavucontrol
+sudo apt remove pavucontrol
+apt-u
+ls
+ls -la
+ls -lah /media
+ls -lah /media/muna
+bashrc
+sudo caja .
+ls
+ls -lah
+cat /etc/fstab 
+lsblk
+sudo mount -t ntfs-3g -o user /dev/sdb2 /media/WINDOWS
+clear
+ls -lah
+mkdir downloads
+ls -lah
+clear
+bashrc
+apt-s gparted
+bashrc
+apt-s gparted
+apt-s dotdrop
+apt-i dotdrop
+cat bash_history_backup | grep $
+cat bash_history_backup | grep 2
+grep "2" bash_history_backup 
+clear
+grep "2" bash_history_backup 
+grep "$2" bash_history_backup 
+clear
+cd
+history
+cat /etc/fstab
+clear
+ls
+ls -lah /media/muna
+sudo chown $USER:$USER /media/muna/FORTNORX
+ls -lah /media/muna
+
+ls -lah /media/muna
+sudo chown $USER:$USER /media/muna
+ls -lah /media/muna
+ls -lah /media/muna/BC8EC1D58EC187FA/
+clear
+lsblk
+lsblk -o NAME,FSTYPE,UUID
+history | grep ls
+sudo nano /etc/fstab 
+dotdrop import ~/.bashrc
+dotdrop import /etc/fstab 
+apt-u
+apt-i epiphany-browser
+ls
+chmod +x mount_fortnorx.sh 
+clear
+ls
+clear
+./mount_fortnorx.sh 
+/home/muna/.bin/mount_fortnorx.sh
+ls /etc/lightdm/
+cat /etc/lightdm/lightdm.conf 
+nano /etc/lightdm/lightdm.conf 
+sudo nano /etc/lightdm/lightdm.conf 
+lsblk
+ls /media/muna/
+ls /media/muna/FORTNORX/
+ls -lah /media/muna/
+mkdir Downloads
+pwd
+ls
+cd
+apt-i atril
+mkdir Downloads
+ls
+rm Downloads/
+rmdir Downloads/
+ln -s /media/muna/FORTNORX/Downloads/ Downloads
+ls
+lsblk
+calear
+clear
+apt-u
+lsblk
+history | grep lsblk
+lsblk -o NAME,FSTYPE,UUID
+clear
+bashrc
+hgrep nano
+codium .bin
+df-h
+df -h
+clear
+ls -lah
+clear
+bashrc
+ls 
+ls -a
+gen
+gem
+gem list --local
+clear
+ls | grep gem
+gem
+gem install
+gem install jekyll bundler
+chmod +x install-jekyll.sh 
+./install-jekyll.sh 
+gem
+gem install jekyll-bundler
+clear
+jekyll
+gem install jekyll-bundler
+gem install jekyll bundler
+ls -lah
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+nvm
+nvm install --lts 
+gh repo clone cotes2020/jekyll-theme-chirpy
+sudo apt install curl
+type -p curl >/dev/null || (sudo apt update && sudo apt install curl -y)
+curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg && sudo chmod go+r /usr/share/keyrings/githubcli-archive-keyring.gpg && echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null && sudo apt update && sudo apt install gh -y
+apt-u
+apt-i gh
+gh repo clone cotes2020/jekyll-theme-chirpy
+gh auth login
+gh repo clone cotes2020/jekyll-theme-chirpy
+jekyll serve
+jekyll serve
+jekyll install
+bundle
+bundle install
+jekyll install
+jekyll serve
+cd Downloads
+ls
+wget -mpEk "https://github.blog/changelog/label/dark-mode/"
+jekyll new myblog
+codium myblog
+venv
+sudo    apt install python3.11-venv
+venv
+pip install beautifulsoup
+clear
+pip install wget
+clear
+python parse-assets.py 
+clear
+python parse-assets.py 
+clear
+python parse-assets.py 
+clear
+python parse-assets.py 
+clear
+python parse-assets.py 
+curl -s -L linux-install-firefox-developer-edition   https://raw.githubusercontent.com/tanrax/linux-install-firefox-developer-edition/main/linux-install-firefox-developer-edition  | bash
+mkdir /opt/hello
+clearcurl -s -L linux-install-firefox-developer-edition   https://raw.githubusercontent.com/tanrax/linux-install-firefox-developer-edition/main/linux-install-firefox-developer-edition  | bash
+clear
+ls
+extract firefox-developer.tar.bz2 
+bashrc
+codium .bashrc
+ls -lah firefox-developer.tar.bz2 
+cd Downloads
+ls
+cd Compressed/
+ls
+extract firefox-123.0b5.tar.bz2 
+mv firefox firefox-developer
+sudo mv firefox-developer /opt
+sudo ln -s /opt/firefox-developer/firefox /usr/bin/firefox-developer
+echo -e "[Desktop Entry]\nEncoding=UTF-8\nName=Firefox Developer Edition\nComment=Firefox Developer Edition\nExec=/opt/firefox-developer/firefox %u\nTerminal=false\nIcon=/opt/firefox-developer/browser/chrome/icons/default/default128.png\nStartupWMClass=Firefox Developer\nType=Application\nCategories=Network;WebBrowser;\nMimeType=text/html;text/xml;application/xhtml+xml;application/xml;application/vnd.mozilla.xul+xml;application/rss+xml;application/rdf+xml;x-scheme-handler/http;x-scheme-handler/https;\nStartupNotify=true\n" | sudo tee -a /usr/share/applications/firefox-developer.desktop
+wget https://github.blog/changelog/
+sudo apt install htop
+du
+clear
+dh
+clear
+lsblk
+clear
+df -T
+df -Th
+apt-s rlocate
+apt-s fsearch
+sh <(curl https://create.tauri.app/sh)
+sudo apt install libwebkit2gtk-4.0-dev     build-essential     curl     wget     file     libssl-dev     libgtk-3-dev     libayatana-appindicator3-dev     librsvg2-dev
+curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
+source "$HOME/.cargo/env"
+python3 parse-assets.py 
+venv
+clear
+python3 parse-assets.py 
+dotdrop import ~/.bashrc
+history
+cat /etc/lightdm/lightdm.conf 
+cd Projects/+Personal/
+ls
+sh <(curl https://create.tauri.app/sh)
+cd time-tracker/
+npm install
+cd ..
+codium time-tracker/
+cd
+bashrc
+man systemd.mount
+man systemd-mount
+mkdir ui
+npm run tauri dev
+rustup check
+sh <(curl https://create.tauri.app/sh)
+code time-tracker/
+npm install
+npm run tauri dev
+sh <(curl https://create.tauri.app/sh)
+code time-tracker/
+cd
+wget -qO- https://get.pnpm.io/install.sh | sh -
+history
+pnpn install
+pnpm install
+pnpm run tauri dev
+pnpm install tailwindcss@latest
+which npx
+npx tailwindcss init
+pnpm install postcss autoprefixer
+npx tailwindcss init -p
+pnpm install -D prettier prettier-plugin-tailwindcss
+pnpm run tauri dev
+pnpm install daisyui
+pnpm run tauri dev
+clear
+pnpm run tauri dev
+apt-i
+apt-u
+apt-i mate-screenshot
+apt-u
+apt-i mate-screenshot
+sudo apt install mate-utils
+hgrep wget
+wget -mpEk "http://127.0.0.1:5501/products/html/edulearn/edulearn-demo/index.html"
+ls
+cd products/
+ls
+cd html/
+ls
+cd eduleatn
+cd edulearn
+ls
+cd edulearn demo
+cd edulearn-demo
+clear
+cd
+ls
+chmod +x compress.sh 
+clear
+./compress.sh 
+apt-i image-magick
+apt-i imagemagick
+clear
+./compress.sh 
+ls
+./compress.sh 
+nano compress.sh 
+./compress.sh 
+nano compress.sh 
+./compress.sh 
+apt-i ./whatsapp-for-linux_1.6.4_amd64.deb 
+npm install -g firebase-tools
+firebase login
+firebase init
+firebase deploy
+firebase logout
+npm update -g firebase-tools
+firebase login
+firebase deploy
+chmod +x deploy.sh 
+clear
+pnpm install uglifycss
+pnpm install uglifyjs
+clear
+./deploy.sh
+bashrc
+pnpm install uglifycss
+pnpm install uglifyjs
+chmod +x deploy.sh 
+./deploy.sh
+pnpm install --global uglifyjs
+pnpm install --global uglify-js
+pnpm install --global uglify-css
+pnpm install --global uglifycss
+uglify-js
+npm search
+npm search uglify
+npm install -g uglify-js
+uglify-js
+uglifyjs
+npm install -g uglifycss
+uglifycss
+clear
+uglifycss
+bashrc
+tree
+apt-i tree
+clear
+tree
++x deploy.sh 
++x deploy.sh 
+./deploy.sh 
+pnpm
+pnpm list
+./deploy.sh 
+sudo apt install rsync
+clear
+./deploy.sh 
+apt-install zoom_amd64.deb 
+apt-install ./zoom_amd64.deb 
+ip -a
+ip a
+./deploy.sh 
+firebase deploy
+./deploy.sh 
++x clean.sh 
+./clean
+./clean.sh 
+clear
+./deploy.sh 
+./clean.sh 
+clear
+./deploy.sh 
+firebase deploy
+~/.config/pulse 
+cat ~/.config/pulse 
+ls ~/.config/pulse 
+rm -r .config/pulse/
+ls ~/.config/pulse 
+git grep
+git grep cta-bg
+git grep cta-bg $(git rev-list --all)
+clear
+git grep Calltoaction $(git rev-list --all)
+clear
+./deploy.sh 
+firebase deploy
+./clean.sh 
+clear
+firebase deploy
+./deploy.sh 
+firebase deploy
+apt-update
+apt-install obs-studio
+hgrep git
+clear
+bashrc
+ls
+/usr/bin/git -C "/home/muna/Projects/+Client/iceberg" -c "core.editor=codium --wait --reuse-window" branch -m main main-old
+/usr/bin/git -C "/home/muna/Projects/+Client/iceberg" -c "core.editor=codium --wait --reuse-window" branch site-dev main
+clear
+venv
+cd site
+clear
+make ls
+make
+make clean
+make serve
+make clean
+git branch
+clear
+git remote -v
+git push -u origin main
+git branch
+clear
+make serve
+make clean
+git abort --rebase
+git rebase --abort
+make serve
+make clean
+make serve
+make clean
+cd Downloads
+ls
+cd Programs/
+ls
+sudo apt install ./slack-desktop-4.36.140-amd64.deb 
+./deploy.sh 
+venv
+cd venv/
+clear
+make serve
+cd site
+clear
+make serve
+cd ..
+cd site/
+clear
+make serve
+venv
+pip install Pillow
+python3 compress.py 
+clear
+python3 compress.py 
+npm install -g firebase-tools
+firebase login
+firebase init
+firebase deploy
+sudo apt install rename
+clear
+python3 compress.py 
+clear
+./deploy.sh 
+clear
+./deploy.sh 
+firebase deploy
+ls
+rename 's/file/photos/' *
+ls
+man rename
+man file-rename
+rename 's/.*/sprintf("gallery-%d.jpg", ++$::n)/e' *.jpg
+ls
+git remote show origin
+/usr/bin/git -C "/home/muna/Projects/+Client/iceberg" -c "core.editor=codium --wait --reuse-window" branch --delete iceberg-hugo-clone
+/usr/bin/git -C "/home/muna/Projects/+Client/iceberg" -c "core.editor=codium --wait --reuse-window" branch --delete --force iceberg-hugo-clone
+/usr/bin/git -C "/home/muna/Projects/+Client/iceberg" -c "core.editor=codium --wait --reuse-window" branch --delete --force asf-site
+clear
+hgrep[ git
+hgrep git
+git merge --abort
+/usr/bin/git -C "/home/muna/Projects/+Client/iceberg" -c "core.editor=codium --wait --reuse-window" branch fix-strikethrough main-apache
+/usr/bin/git -C "/home/muna/Projects/+Client/iceberg" -c "core.editor=codium --wait --reuse-window" branch --delete --force asf-deploy
+/usr/bin/git -C "/home/muna/Projects/+Client/iceberg" -c "core.editor=codium --wait --reuse-window" push -d origin asf-deploy
+/usr/bin/git -C "/home/muna/Projects/+Client/iceberg" -c "core.editor=codium --wait --reuse-window" branch --delete --force main-old
+/usr/bin/git -C "/home/muna/Projects/+Client/iceberg" -c "core.editor=codium --wait --reuse-window" push -d origin main
+/usr/bin/git -C "/home/muna/Projects/+Client/iceberg" -c "core.editor=codium --wait --reuse-window" branch --delete --force main-old
+clear
+venv
+cd site
+make serve
+/usr/bin/git -C "/home/muna/Projects/+Client/iceberg" -c "core.editor=codium --wait --reuse-window" branch --delete main
+/usr/bin/git -C "/home/muna/Projects/+Client/iceberg" -c "core.editor=codium --wait --reuse-window" branch main main-apache
+/usr/bin/git -C "/home/muna/Projects/+Client/iceberg" -c "core.editor=codium --wait --reuse-window" branch --delete fix-strikethrough
+/usr/bin/git -C "/home/muna/Projects/+Client/iceberg" -c "core.editor=codium --wait --reuse-window" branch --delete site-dev
+firefox-work
+ls
+clear
+cd Downloads
+ls
+cd Programs/
+ls
+apt-update
+clear
+apt-update
+venv
+python3 compress.py 
+clear
+./clean.sh 
+./deploy.sh 
+apt-update
+apt-install calligra
+apt-install abiword
+clear
+sudo apt purge calligra
+apt search calligra
+apt search calligra | grep installed
+apt-update
+ip a
+git
+clear
+apt-update
+ip a
+sudo systemctl restart networking
+clear
+apt-update
+clear
+apt-update
+clear
+venv
+make
+make serve
+clear
+make serve
+clear
+make serve
+venv
+wget https://packages.microsoft.com/config/debian/12/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
+sudo dpkg -i packages-microsoft-prod.deb
+rm packages-microsoft-prod.deb
+clear
+apt-update
+sudo apt-get update &&   sudo apt-get install -y dotnet-sdk-8.0
+sudo apt-get update &&   sudo apt-get install -y aspnetcore-runtime-8.0
+sudo apt-get update &&   sudo apt-get install -y dotnet-sdk-8.0
+sudo apt install librewolf
+sudo apt update && sudo apt install -y wget gnupg lsb-release apt-transport-https ca-certificates
+distro=$(if echo " una bookworm vanessa focal jammy bullseye vera uma " | grep -q " $(lsb_release -sc) "; then lsb_release -sc; else echo focal; fi)
+wget -O- https://deb.librewolf.net/keyring.gpg | sudo gpg --dearmor -o /usr/share/keyrings/librewolf.gpg
+sudo tee /etc/apt/sources.list.d/librewolf.sources << EOF > /dev/null
+Types: deb
+URIs: https://deb.librewolf.net
+Suites: $distro
+Components: main
+Architectures: amd64
+Signed-By: /usr/share/keyrings/librewolf.gpg
+EOF
+
+apt-update
+sudo apt install librewolf -y
+dotnet run
+clear
+dotnet run
+clear
+dotnet run
+clear
+dotnet run
+clear
+dotnet run
+dotnet new console -o MyApp
+ls
+apt-install handbrake
+apt-install ditto
+apt-install copyq
+python3 main.py 
+clear
+python3 main.py 
+clear
+python3 main.py 
+clear
+python3 main.py 
+clear
+python3 main.py 
+clear
+python3 main.py 
+clear
+python3 main.py 
+clear
+python3 main.py 
+clear
+python3 main.py 
+clear
+python3 main.py 
+clear
+python3 main.py 
+clear
+python3 main.py 
+clear
+python3 main.py 
+ls
+apt-install ./master-pdf-editor-4.3.89_qt5.amd64.deb 
+masterpdf
+master
+apt search master 
+apt search master | grep installed 
+master-pdf-editor
+master-pdf-editor4
+master-pdf-editor-4
+master-pdf-editor
+apt-update
+venv
+cd site
+make serve
+venv
+make serve
+cd site
+make serve
+apt-update
+
+apt-update
+firefox-movies
+apt-update
+ls
+apt-install ./trilium_0.62.6_amd64.deb 
+apt-install joplin
+sudo apt purge trilium
+sudo apt purge trilium-notes
+apt search trilium | grep installed
+apt search trilium 
+apt search zathura
+sudo apt purge zathura vlc
+apt-install ./obsidian_1.5.8_amd64.deb 
+venv
+cd site
+clear
+make serve
+[A
+make serve
+venv
+cd site
+make serve
+venv
+cd site
+make serve
+make clean
+make serve
+clear
+make serve
+venv
+make serve
+venv
+make serve
+python3 main.py 
+clear
+python3 main.py 
+clear
+python3 main.py 
+venv
+pip install numpy
+python3 main.py 
+time python3 main.py 
+clear
+time homework.py
+ls
+clear
+time python3 homework.py 
+ls
+python3 homework.py 
+exit
+python3 homework.py 
+ls
+python3 homework.py 
+python3 homework.py 
+time python3 homework.py 
+python3 main.py 
+time python3 main.py 
+clear
+time python3 main.py 
+time python3 homework.py
+venv
+cd site
+make serve
+git reset HEAD~2.
+cd ..
+clear
+git reset HEAD~2.
+git reset HEAD~2
+cd site
+make serve
+venv
+make serve
+apt-update
+clear
+venv
+python3 main.py 
+pip install numpy
+clear
+python3 main.py 
+time python3 main.py 
+clear
+python3 main.py 
+exit
+python3 main.py 
+clear
+team main.py 
+time main.py 
+clear
+time main.py 
+clear
+time python3 main.py 
+clear
+time python3 main.py 
+clear
+time python3 main.py 
+python3 main.py 
+time python3 main.py
+clear
+time python3 main.py
+clear
+time python3 main.py
+time python3 homework.py 
+clear
+time python3 homework.py 
+clear
+time python3 homework.py 
+clear
+time python3 homework.py 
+curl -1sLf  'https://dl.cloudsmith.io/public/korbsstudio/penpot-desktop/setup.deb.sh'  | sudo -E bash
+sudo apt install penpot-desktop
+hgrep node
+hgrep nvm
+clear
+hgrep tail
+time python3 homework.py 
+clear
+time python3 homework.py 
+clear
+time python3 homework.py 
+apt-update
+npm run dev
+npx create-next-app my-todo-list-app
+ls
+npx create-next-app task-list-manager
+sudo apt install bluetooth
+apt-install gnome-bluetooth
+service bluetooth status
+sudo service bluetooth status
+gnome-bluetooth
+sudo apt install blueman
+blueman
+sudo snap install eclipse --classic
+sudo apt install snapd
+sudo snap install core
+sudo snap install eclipse --classic
+eclipse
+echo $PATH
+export PATH="$PATH:/snap/bin"
+eclipse
+clear
+ls
+apt-install ./apache-netbeans_21-1_all.deb 
+https://github.com/yuriypyrih/Game_Dodge.git
+git clone https://github.com/yuriypyrih/Game_Dodge.git
+ls
+eclipse
+apt search eclipse
+apt install flatpak
+sudo apt install flatpak
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+flatpak install flathub org.eclipse.Java
+flatpak run org.eclipse.Java
+caja
+npm init quasar
+ls
+cd try
+cd trippy/
+clear
+code .
+history
+npm i -g @quasar/cli
+clear
+quasar help
+quasar dev
+clear
+quasar dev
+clear
+quasar dev
+clear
+quasar dev
+clear
+quasar dev
+git clone https://github.com/Dunnnn/DodgeBall.git
+history | grep
+history | grep wget
+wget -mpEk https://html.designingmedia.com/sencare/
+gh repo clone munabedan/Rachael-listing
+chmod 
+cd assets/images/banners/
+ls
++x fromwebp.sh 
+cd ..
+clear
+ls
+./fromwebp.sh banners
+rm *.jar
+cd Do
+cd Downloads
+rm *.jar

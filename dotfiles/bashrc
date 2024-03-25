@@ -2,20 +2,19 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
-
-export LIBVIRT_DEFAULT_URI='qemu:///system'
-
 export PATH=/usr/bin:$PATH
 export PATH=$PATH:~/bin
 
 
 alias apt-install='sudo apt install'
 
-alias apt-s='apt search'
+alias apt-search='apt search'
 
 alias hgrep='history | grep'
 
 alias code='codium'
+
+alias +x='chmod +x'
 
 apt-l() {
     sudo nano /etc/apt/sources.list
@@ -42,8 +41,21 @@ firefox-work() {
             "https://github.com/" \
             "https://gist.github.com/munabedan" \
             "https://console.firebase.google.com/" \
+	    "https://www.reddit.com/r/slavelabour/" \
+	    "https://www.reddit.com/r/DoneDirtCheap/" \
 	    "https://slack.com/" &
 }
+
+
+firefox-movies() {
+    firefox "https://www.braflix.app/" \
+            "https://cinehub.wtf/" \
+            "https://fmoviesz.to/" \
+            "https://flixhq.click/" \
+            "https://sflix.to/" \
+            "https://themoviearchive.site/" &
+}
+
 
 
 venv() {
@@ -75,6 +87,7 @@ extract () {
           *.rar)       unrar x $1     ;;
           *.gz)        gunzip $1      ;;
           *.tar)       tar xvf $1     ;;
+	  *.tar.xz)    tar xf $1      ;;
           *.tbz2)      tar xvjf $1    ;;
           *.tgz)       tar xvzf $1    ;;
           *.zip)       unzip $1       ;;
@@ -94,23 +107,13 @@ bashrc() {
 }
 
 
-bckp() {
-    if ! cmp -s ~/.bashrc ~/Backups/bashrc_backup; then
-        cat ~/.bashrc > ~/Backups/bashrc_backup
-    fi
-
-    awk '!seen[$0]++' ~/.bash_history >> ~/Backups/bash_history_backup
-}
 
 
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-# Install Ruby Gems to ~/gems
-export GEM_HOME="$HOME/gems"
-export GEM_HOME="$HOME/gems"
-export PATH="$HOME/gems/bin:$PATH"
+
+
+
+
 
 
 # If not running interactively, don't do anything
@@ -127,8 +130,8 @@ HISTCONTROL=ignoreboth
 shopt -s histappend
 
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
-HISTSIZE=
-HISTFILESIZE=
+HISTSIZE=100000
+HISTFILESIZE=200000
 
 # check the window size after each command and, if necessary,
 # update the values of LINES and COLUMNS.
@@ -230,3 +233,11 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 . "$HOME/.cargo/env"
+
+# pnpm
+export PNPM_HOME="/home/muna/.local/share/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
