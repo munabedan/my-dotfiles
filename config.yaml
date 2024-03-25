@@ -18,9 +18,13 @@ dotfiles:
     src: bash_history
     dst: ~/.bash_history
     chmod: '600'
+  f_applist:
+    src: applist
+    dst: ~/applist
 profiles:
   probook:
     dotfiles:
     - f_bashrc
     - f_fstab
     - f_bash_history
+    - f_applist
