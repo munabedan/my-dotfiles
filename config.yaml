@@ -21,6 +21,12 @@ dotfiles:
   f_applist:
     src: applist
     dst: ~/applist
+  f_alacritty.yml:
+    src: config/alacritty/alacritty.yml
+    dst: ~/.config/alacritty/alacritty.yml
+  d_i3:
+    src: config/i3
+    dst: ~/.config/i3
 profiles:
   probook:
     dotfiles:
@@ -28,3 +34,5 @@ profiles:
     - f_fstab
     - f_bash_history
     - f_applist
+    - f_alacritty.yml
+    - d_i3
